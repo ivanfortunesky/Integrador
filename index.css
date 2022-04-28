@@ -1,0 +1,81 @@
+:root {    
+    --fuente-principal:'Roboto', sans-serif;
+    --color-negro: #242424;
+    --color-blanco: #ffff;
+    --color-azul:  #3498db ;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Estilos header*/
+
+
+
+
+/* Estilos Main*/
+.tarjeta{
+    width: 350px;   
+    height: 560px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 0.5rem;
+
+}
+.tarjeta img{
+    width: 350px; 
+    height: 350px;  
+    
+
+}
+.tarjeta .botones{
+margin: 1rem .5rem .1rem .5rem;
+
+
+}
+.tarjeta .botones input[type="button"]{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.tarjeta .botones .btnAmarillo{
+    background-color: rgb(255, 193, 8);
+    border: 0;
+    border-radius: 5px;
+}
+.tarjeta .botones .btnAzul{
+    background-color: rgb(24, 163, 186);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.tarjeta .botones .btngris{
+    background-color: rgb(182, 179, 180);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.tarjeta .botones .btnrojo{
+    background-color: rgb(155, 22, 22);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.tarjeta .titulo {
+font-size: 1.4rem;
+font-weight: bold;
+margin: .1rem .5rem .1rem .8rem;
+
+}
+.tarjeta .texto{
+
+    font-size: .9rem;
+    margin: .4rem;
+    text-align: justify;
+}
+.oradores{
+ display: flex;
+flex-direction: row;
+justify-content: center;
+}
